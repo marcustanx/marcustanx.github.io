@@ -1,0 +1,67 @@
+- name: Pink Season
+  url: https://apps.apple.com/us/app/pink-season/id1479880992/
+  description: An app made for Hong Kong clients to promote diversity, inclusion and awareness among communities.
+  code: https://apps.apple.com/us/app/pink-season/id1479880992/
+  used:
+    - thing: Android
+    - thing: iOS
+    - thing: JavaScript
+    - thing: HTML, SVG & CSS
+    - thing: Restful API
+    - thing: Google Maps API
+    - thing: Firebase
+
+- name: MTSS.dev
+  url: https://mtss.dev/
+  code: https://sites.google.com/mtss.dev/website/
+  description: A personal website used as a test production & code development. This page was registered using my own personal name as business tradename as per requirements of legal entities and not intended for as a new company setup.
+  used:
+    - thing: Google Site template
+    - thing: Progressive Web apps
+    - thing: Google Analytics
+    - thing: Google AdSense
+
+- name: Merchant Online Stock Inventory Mgmt
+  url: 
+  code: 
+  description: Via Google Sheets with multiple users on-the-cloud collaboration with added enhanced automated tools (mass import & export, product image manipulation & transformation, on-trigger html tags generator for product details). 
+  used:
+    - thing: Google Sheets
+    - thing: Mass Editing
+    - thing: E-commerce
+      
+- name: Product/Software User Guide for Online Merchants
+  url: 
+  code: 
+  description: Via Google Sheets with multiple users on-the-cloud collaboration with added enhanced automated tools (mass import & export, product image manipulation & transformation, on-trigger html tags generator for product details)
+  used:
+    - thing: Marketing
+    - thing: E-commerce
+    - thing: Onboarding
+    - thing: User Guide
+
+- name: Online Promo Campaign Listing
+  url: /TODO/ add image of nano sales banners
+  code: 
+  description: Create marketing collaterals & ad banners for seasonal sales campaign submissions & for mobile EDM push.
+  used:
+    - thing: E-commerce
+    - thing: Marketing
+    - thing: Adobe Photoshop
+    - thing: Adobe Illustrator
+
+- name: CDN Image Optimazation On-the-Fly
+  url: 
+  code: 
+  description: A widget for easy uploading to CDN server & a quick tool for image editing featuring drag & drop function.
+  used:
+  - thing: Coming Soon
+  - thing: Work in Progress
+
+- name: IFTTT Automation Applet
+  url: 
+  code: 
+  description: Automation applet using "If This Then That" developer platform for smart home devices trigger's and scripts execution.
+  used:
+  - thing: Coming Soon
+  - thing: Work in Progress

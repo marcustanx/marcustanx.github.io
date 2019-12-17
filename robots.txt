@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://marcustan-dev.github.io/sitemap.xml

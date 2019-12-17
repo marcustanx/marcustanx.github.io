@@ -1,0 +1,45 @@
+# Site settings
+name: Marcus Tan
+title: Marcus Tan's Portfolio
+description: My love for both technology and beautiful design make the web my ideal roadmap for becoming a Front-End Developer.
+url: https://marcustan-dev.github.io/
+baseurl: ''
+email: marcus@mtss.dev
+cover: https://marcustan-dev.github.io/img/og.png
+logo: https://marcustan-dev.github.io/img/emojis/technologist.png
+resume: https://marcustan-dev.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:marcus@mtss.dev
+  # - title: twitter
+  #   url: https://twitter.com/marcustan-dev
+  # - title: instagram
+  #   url: https://instagram.com/marcustan-dev
+  # - title: codepen
+  #   url: http://codepen.io/marcustan-dev
+  - title: github
+    url: https://github.com/marcustan-dev
+  - title: linkedin
+    url: https://www.linkedin.com/in/marcustanzw
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
