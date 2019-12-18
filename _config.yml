@@ -1,6 +1,7 @@
 # Site settings
 name: Marcus Tan
 title: Marcus Tan's Portfolio
+redirect_from: https://marcustan-dev.github.io
 description: My love for both technology and beautiful design make the web my ideal roadmap for becoming a Front-End Developer.
 url: https://marcustanx.github.io/
 baseurl: ''
@@ -24,6 +25,9 @@ social:
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-redirect-from
 
 exclude:
   - 'Gemfile'
