@@ -1,9 +1,9 @@
-const imagemin = require('gulp-imagemin');
+import imagemin from 'gulp-imagemin';
 
 const imgPath = 'img/**/*.+(png|jpg|gif|svg)';
 const destPath = '_site/img';
 
-module.exports = gulp => {
+export default gulp => {
   gulp.task('images', () => {
     return gulp
       .src(imgPath)

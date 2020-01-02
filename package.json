@@ -1,6 +1,6 @@
 {
   "name": "marcustanx.github.io",
-  "version": "0.0.0",
+  "version": "1.0.3",
   "description": "  My love for both technology and beautiful design make the web my ideal roadmap for becoming a Front-End Developer.",
   "repository": {
     "type": "git",
@@ -24,5 +24,6 @@
     "gulp-imagemin": "6.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "3.0.2"
-  }
+  },
+  "dependencies": {}
 }

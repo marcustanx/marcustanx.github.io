@@ -1,11 +1,11 @@
-const gulp = require('gulp');
-const sass = require('./build/sass');
+import gulp, { task as _task } from 'gulp';
+import sass from './build/sass';
 const scripts = require('./build/scripts').default.default;
-const images = require('./build/images');
-const sync = require('./build/browsersync');
+import images from './build/images';
+import sync from './build/browsersync';
 
 [sass, scripts, images, sync, linkredirect].forEach(task => {
   task(gulp);
 });
 
-gulp.task('build', ['sass', 'scripts', 'images', 'jekyll-build']);
+_task('build', ['sass', 'scripts', 'images', 'jekyll-build']);

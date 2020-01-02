@@ -1,10 +1,10 @@
-const eslint = require('gulp-eslint');
-const uglify = require('gulp-uglify');
+import eslint, { format } from 'gulp-eslint';
+import uglify from 'gulp-uglify';
 
 const jsPath = '_scripts/*.js';
 const destPath = '_site/js';
 
-module.exports = gulp => {
+export default gulp => {
   gulp.task('scripts', () => {
     return (
       gulp
@@ -14,7 +14,7 @@ module.exports = gulp => {
             useEslintrc: true,
           })
         )
-        .pipe(eslint.format())
+        .pipe(format())
         // .pipe(uglify())
         .pipe(gulp.dest(destPath))
         .pipe(gulp.dest('js'))
