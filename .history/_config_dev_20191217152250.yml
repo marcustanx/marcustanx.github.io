@@ -7,7 +7,7 @@ baseurl: ''
 email: marcus@mtss.dev
 cover: https://marcustanx.github.io/img/og.png
 logo: https://marcustanx.github.io/img/emojis/technologist.png
-resume: https://registry.jsonresume.org/marcustanx
+resume: https://marcustanx.github.io/resume.pdf
 social:
   - title: email
     url: mailto:marcus@mtss.dev
@@ -24,9 +24,6 @@ social:
 
 # Build settings
 markdown: kramdown
-
-# plugins:
-# - jekyll-redirect-from
 
 exclude:
   - 'Gemfile'
