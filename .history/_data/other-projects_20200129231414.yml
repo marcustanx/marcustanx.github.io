@@ -1,25 +1,25 @@
-# - name: Pink Season
-#   url: https://apps.apple.com/us/app/pink-season/id1479880992/
-#   description: An app made for Hong Kong clients to promote diversity, inclusion and awareness among communities.
-#   code: https://apps.apple.com/us/app/pink-season/id1479880992/
-#   used:
-#     - thing: Android
-#     - thing: iOS
-#     - thing: JavaScript
-#     - thing: HTML, SVG & CSS
-#     - thing: Restful API
-#     - thing: Google Maps API
-#     - thing: Firebase
+- name: Pink Season
+  url: https://apps.apple.com/us/app/pink-season/id1479880992/
+  description: An app made for Hong Kong clients to promote diversity, inclusion and awareness among communities.
+  code: https://apps.apple.com/us/app/pink-season/id1479880992/
+  used:
+    - thing: Android
+    - thing: iOS
+    - thing: JavaScript
+    - thing: HTML, SVG & CSS
+    - thing: Restful API
+    - thing: Google Maps API
+    - thing: Firebase
 
-# - name: MTSS.dev
-#   url: https://mtss.dev/
-#   code: https://sites.google.com/mtss.dev/website/
-#   description: A personal website used as a test production & code development. This page was registered using my own personal name as business tradename as per requirements of legal entities and not intended for as a new company setup.
-#   used:
-#     - thing: Google Site template
-#     - thing: Progressive Web apps
-#     - thing: Google Analytics
-#     - thing: Google AdSense
+- name: MTSS.dev
+  url: https://mtss.dev/
+  code: https://sites.google.com/mtss.dev/website/
+  description: A personal website used as a test production & code development. This page was registered using my own personal name as business tradename as per requirements of legal entities and not intended for as a new company setup.
+  used:
+    - thing: Google Site template
+    - thing: Progressive Web apps
+    - thing: Google Analytics
+    - thing: Google AdSense
 
 - name: Merchant Online Stock Inventory Mgmt
   url: 
