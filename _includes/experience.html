@@ -1,19 +1,22 @@
 <section class="section experience">
-  <div class="section__title">Experience</div>
-  <div class="section__content">
-    <div class="jobs">
-      {% for job in site.data.experience %}
-      <div class="job">
-        <div class="time-place">
-          <div class="job__company">
-            <a href="{{job.url}}" target="_blank">{{job.company}}</a>
-          </div>
-          <div class="job__time">{{job.time}}</div>
+    <div class="section__title">Experience</div>
+    <div class="section__content">
+        <div class="jobs">
+            {% for job in site.data.experience %}
+            <div class="job">
+                <div class="time-place">
+                    <div class="job__company">
+                        <a href="{{job.url}}" target="_blank">{{job.company}}</a>
+                    </div>
+                    <div class="job__time">{{job.time}}</div>
+                </div>
+                <div class="job__position">{{job.position}}</div>
+            </div>
+            {% endfor %}
         </div>
-        <div class="job__position">{{job.position}}</div>
-      </div>
-      {% endfor %}
+        <a href="https://registry.jsonresume.org/marcustanx" target="_blank" class="arrow-link">Explore my CV</a>
     </div>
-    <a href="https://www.icloud.com/iclouddrive/0B0D2V6DU_fF6n5XfoXYjxiJQ#RESUME_Marcus_JUNE20" target="_blank" class="arrow-link">View my CV</a>
-  </div>
+    </div>
+    <a href="https://www.icloud.com/iclouddrive/0B0D2V6DU_fF6n5XfoXYjxiJQ#RESUME_Marcus_JUNE2" target="_blank" class="arrow-link">Download as PDF copy</a>
+    </div>
 </section>
