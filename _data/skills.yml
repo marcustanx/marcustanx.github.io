@@ -1,24 +1,21 @@
 cores:
   - item: E-commerce
-  - item: Online shopping
-  - item: Training
   - item: Nutrition
+  - item: Online Shopping
+  - item: Training
   - item: Coaching
   - item: Public Speaker
 
 languages:
-  - item: Dart
   - item: JavaScript
-  - item: D3, HTML & SVG
+  - item: HTML
   - item: CSS/Sass
   - item: UNIX / MaxOSX
   - item: Ubuntu / Linux
-  - item: Pop OS, Zorin OS
-  - item: Solus Budgie, KDE Arch
 
 frameworks:
   - item: Google Cloud Console
-  - item: Firebase 
+  - item: Firebase
   - item: Flutter
   - item: React
   - item: Jekyll
@@ -26,20 +23,16 @@ frameworks:
   - item: Bulma
   - item: Netlify
   - item: Github Pages
-  - item: Heroku
-  - item: Docker
   - item: Stackblitz
 
 tools:
   - item: Bash & Zsh
   - item: Hyper & Oh-My-Zsh
-  - item: iTerm2 Terminal
   - item: Git, Github, & Gitkraken
   - item: Gulp & Grunt
   - item: Android Studio
   - item: IntelliJ Idea
   - item: Visual Studio Code
-  - item: Xcode 
 
 design:
   - item: Adobe Photoshop
